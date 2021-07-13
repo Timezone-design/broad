@@ -72,4 +72,4 @@ socket.on("answer", function (event) {
 //     socket.to(broadcaster).emit("disconnectPeer", socket.id);
 //   });
 });
-server.listen(port, "54.188.5.126", () => console.log(`Server is running on port ${port}`));
+server.listen(port, "0.0.0.0", () => console.log(`Server is running on port ${port}`));
