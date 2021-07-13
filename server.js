@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 var  broadcaster=[];
-const port = process.env.PORT || 2000;
+const port = process.env.PORT || 1000;
 
 const http = require("http");
 const server = http.createServer(app);
@@ -72,4 +72,4 @@ socket.on("answer", function (event) {
 //     socket.to(broadcaster).emit("disconnectPeer", socket.id);
 //   });
 });
-server.listen(port, () => console.log(`Server is running on port ${port}`));
+server.listen(port, "54.188.5.126", () => console.log(`Server is running on port ${port}`));
