@@ -12,7 +12,7 @@ const config = {
   ]
 };
 
-const socket = io.connect("54.188.5.126:2000");
+const socket = io.connect("54.188.5.126:1000");
 const video = document.querySelector("video");
 
 document.getElementById("start").onclick = function () {
