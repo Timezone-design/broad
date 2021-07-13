@@ -7,7 +7,7 @@ const config = {
   ]
 };
 const videoElement = document.querySelector("video");
-const socket = io.connect(window.location.origin);
+const socket = io.connect("https://morning-lake-27990.herokuapp.com/");
  
 
 document.getElementById("start").onclick = function () {
