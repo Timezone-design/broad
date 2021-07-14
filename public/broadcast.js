@@ -7,7 +7,7 @@ const config = {
   ]
 };
 const videoElement = document.querySelector("video");
-const socket = io.connect("https://test.yklmrealestate.com:60000");
+const socket = io.connect("https://test.yklmrealestate.com:443");
  
 
 document.getElementById("start").onclick = function () {
