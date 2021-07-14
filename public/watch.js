@@ -12,7 +12,7 @@ const config = {
   ]
 };
 
-const socket = io.connect("https://test.yklmrealestate.com");
+const socket = io.connect("https://test.yklmrealestate.com:443");
 const video = document.querySelector("video");
 
 document.getElementById("start").onclick = function () {
